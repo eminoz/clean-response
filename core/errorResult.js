@@ -19,4 +19,4 @@ class ErrorResponse extends DataResult {
     }
 
 }
-module.exports = { ErrorResponse }
+module.exports = ErrorResponse 

@@ -20,4 +20,4 @@ class SuccessResponse extends DataResult {
     }
 
 }
-module.exports = { SuccessResponse }
+module.exports = SuccessResponse 
