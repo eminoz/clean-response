@@ -42,3 +42,17 @@ Frontend will see this clean data.There are all information that frontend need s
   }
 }
 ```
+### Error Response
+This packege use for error response as well.Here the example. Firstly ErrorResponse is added
+
+```js
+const ErrorResponse = require("clean-response")
+```
+You can give all error status code and the call the dataResult function.
+```js
+const response = new ErrorResponse(400).dataResult()
+```
+Frontend will see this clean data.
+```js
+{ success: false, statusCode: 400, message: 'Bad Request' }
+```
