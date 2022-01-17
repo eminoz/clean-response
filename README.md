@@ -37,7 +37,7 @@ Frontend will see this clean data.There are all information that frontend need s
     name: 'emin',
     surname: 'oz',
     email: 'example@gmail.com',
-    contury: 'turkey',
+    country: 'turkey',
     hobbies: [ 'cooking', 'learn new languages', 'travel' ]
   }
 }
