@@ -1,6 +1,6 @@
 {
   "name": "clean-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this packege responses clean data for frontend",
   "main": "main.js",
   "scripts": {
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/eminoz/clean-response.git"
   },
   "keywords": [
-    "responce",
+    "response",
     "clean",
-    "code"
+    "code",
+    "return clean data"
   ],
   "author": "mehmet emin öz",
   "license": "ISC",
