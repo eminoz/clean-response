@@ -1,4 +1,6 @@
 module.exports = {
-    SuccessResponse: require("./core/successResult"),
-    ErrorResponse: require("./core/errorResult")
+    DataResult: require("./core/dataResult"),
+    ErrorResult: require("./core/errorResult"),
+    Result: require("./core/result"),
+    SuccessDataResult: require("./core/successDataResult"),
 }

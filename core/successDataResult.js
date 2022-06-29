@@ -1,8 +1,8 @@
-const { DataResult } = require("./dataResult");
 const { getStatusText, getStatusCode } = require("./statusCodes");
+const Result = require("./result");
 
 
-class SuccessResponse extends DataResult {
+class SuccessDataResult extends Result {
     constructor(statusCode, data) {
         super(true)
         this.statusCode = statusCode
@@ -20,4 +20,4 @@ class SuccessResponse extends DataResult {
     }
 
 }
-module.exports = SuccessResponse 
+module.exports = SuccessDataResult

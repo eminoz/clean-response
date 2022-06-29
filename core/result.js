@@ -4,16 +4,22 @@ class Result {
         this.success = success
         this.message = message
     }
-    isstatus() {
+
+    getSuccessAndMessage() {
         return {
-            status: this.status
-        }
-    }
-    getMessage() {
-        return {
+            success: this.success,
             message: this.message
         }
     }
+
+    getSuccess() {
+        return {
+            success: this.success
+
+        }
+    }
+
+
 }
 
-module.exports = { Result }
+module.exports = Result
