@@ -12,7 +12,7 @@ $ npm install clean-response
 First you add project the file.
 
 ```js
-const SuccessResponse = require("clean-response")
+const SuccessDataResult = require("clean-response")
 ```
 
 You must give data and status code that you will return to frontend.There is example below.First field should be status code.SuccessResponse will understand which status code is used thus you can use all status code here.Second field should be data that you want to response to frontend.Finally you must call dataResult function.
@@ -25,7 +25,7 @@ var data = {
     hobbies: ["cooking", "learn new languages", "travel"],
 };
 
-const response = new SuccessResponse(201, data).dataResult()
+const response = new SuccessDataResult(201, data).dataResult()
 ```
 Frontend will see this clean data.There are all information that frontend need such as data, status message, status code etc. Now frontend handle that data more easily.
 ```js
@@ -46,11 +46,11 @@ Frontend will see this clean data.There are all information that frontend need s
 This packege use for error response as well.Here the example. Firstly ErrorResponse is added
 
 ```js
-const ErrorResponse = require("clean-response")
+const ErrorResult = require("clean-response")
 ```
 You can give all error status code and the call the dataResult function.
 ```js
-const response = new ErrorResponse(400).dataResult()
+const response = new ErrorResult(400).dataResult()
 ```
 Frontend will see this clean data.
 ```js
